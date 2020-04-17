@@ -17,10 +17,11 @@ cd url-shortener
 npm install
 ```
 
-3. Run server
-
+3. Create the environment variables file
 ```bash
-npm start
+echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-url-shortener" >> .env
+echo "BASE_URL='http://localhost:5000" >> .env
+echo "PORT=5000 >> .env"
 ```
 
 4. Install HTTPie. It is a command line HTTP client
@@ -31,13 +32,19 @@ brew install httpie
 pip install httpie
 ```
 
-5. Shorten url
+5. Run server
+
+```bash
+npm start
+```
+
+6. Shorten url
 
 ```bash
 http post localhost:5000/api/items url=https://google.com
 ```
 
-6. Expect json response
+7. Expect json response
 
 ```json
 {
