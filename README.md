@@ -1,6 +1,6 @@
 # Introduction
 
-URL shortener. Used: NodeJS, MongoDB, mongoose  
+URL shortener. Tech stack: nodejs, express, mongodb, mongoose
 
 ## Backend installation
 
