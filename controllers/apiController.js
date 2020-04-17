@@ -8,8 +8,11 @@ const baseUrl = process.env.BASE_URL;
 module.exports = app => {
     app.post("/api/items", async (req, res) => {
         const { url } = req.body
-        if (!validUrl.isUri(url))
+        console.log(url);
+        if (!validUrl.isUri(url)) {
             res.status(400).json({ success: false, msg: "URL is wrong!", data: req.body });
+            return
+        }
         const code = shortCode.generate();
         object = new db({ url, code });
         object.save();
@@ -19,8 +22,10 @@ module.exports = app => {
     app.get("/api/items/:id", async (req, res) => {
         const code = req.params.id;
         const item = await db.findOne({ code });
-        if (!item)
+        if (!item) {
             res.status(404).json({ success: false, msg: "URL does not exist!" });
+            return;
+        }
         await db.updateOne({ code }, { $inc: { count: 1 } });
         res.redirect(301, item.url);
     });
