@@ -1,5 +1,5 @@
 {
-  "name": "nima",
+  "name": "url-shortener",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zhunisali Shanabek",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zshanabek/url-shortener.git"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.9",
