@@ -17,11 +17,12 @@ cd url-shortener
 npm install
 ```
 
-3. Create the environment variables file. Here I past connection url to my remote mongodb database, but you can past url to your own database. Create your own remote mongodb [database](https://www.mlab.com) 
+3. Create the environment variables file. Here I past connection url to my remote mongodb database, but you can past url to your own database. Create remote mongodb database [here](https://www.mlab.com)
+
 ```bash
-echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-url-shortener" >> .env
 echo "BASE_URL='http://localhost:5000" >> .env
-echo "PORT=5000 >> .env"
+echo "PORT=5000" >> .env
+echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-url-shortener" >> .env
 ```
 
 4. Install HTTPie. It is a command line HTTP client
