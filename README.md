@@ -7,7 +7,7 @@ URL shortener. Used: NodeJS, MongoDB, mongoose
 1. Clone repository
 
 ```bash
-git clone https://github.com/zshanabek/nodejs-url-shortener
+git clone https://github.com/zshanabek/url-shortener
 cd nodejs-url-shortener
 ```
 
