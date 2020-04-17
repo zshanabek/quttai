@@ -29,8 +29,6 @@ echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-u
 
 ```bash
 apt-get install httpie
-brew install httpie
-pip install httpie
 ```
 
 5. Run server
