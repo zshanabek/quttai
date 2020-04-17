@@ -23,13 +23,18 @@ npm install
 npm start
 ```
 
-4. Get todos
+4. Install HTTPie. It is a command line HTTP client
+
+```bash
+sudo apt-get install httpie
+```
+
+5. Shorten url
 
 ```bash
 http post localhost:5000/api/items url=https://google.com
 ```
-
-Expect json response:
+6. Expect json response
 
 ```json
 {
