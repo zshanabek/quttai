@@ -17,7 +17,7 @@ cd url-shortener
 npm install
 ```
 
-3. Create the environment variables file. Here I past connection url to my remote mongodb database, but you can past url to your own database. Create remote mongodb database [here](https://www.mlab.com)
+3. Create the environment variables file. Here I pasted connection url to my remote database, but you can past your database's url. Create a remote mongodb database [here](https://www.mlab.com)
 
 ```bash
 echo "BASE_URL='http://localhost:5000" >> .env
