@@ -37,13 +37,13 @@ apt-get install httpie
 npm start
 ```
 
-6. Shorten url
+6. Shorten long url
 
 ```bash
-http post localhost:5000/api/items url=https://google.com
+http post localhost:5000/api/items url=https://twitter.com/theshanabek/status/1180694065014349825
 ```
 
-7. Expect json response
+7. Expect short url in response and then past it somewhere
 
 ```json
 {
