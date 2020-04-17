@@ -1,6 +1,10 @@
 # Introduction
 
-URL shortener. Tech stack: nodejs, express, mongodb, mongoose
+URL shortener. 
+
+Tech stack: nodejs, express, mongodb, mongoose
+
+quttai - word from Kazakh құттай ("small").
 
 ## Backend installation
 
