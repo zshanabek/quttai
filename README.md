@@ -7,8 +7,8 @@ URL shortener. Tech stack: nodejs, express, mongodb, mongoose
 1. Clone repository
 
 ```bash
-git clone https://github.com/zshanabek/url-shortener
-cd url-shortener
+git clone https://github.com/zshanabek/quttai
+cd quttai
 ```
 
 2. Install dependencies
