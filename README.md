@@ -18,7 +18,7 @@ quttai - word from Kazakh құттай ("small").
 
 ```bash
 git clone https://github.com/zshanabek/quttai
-cd quttai
+cd quttai/server
 ```
 
 2. Install dependencies
@@ -30,7 +30,7 @@ npm install
 3. Create the environment variables file. Here I pasted connection url to my remote database, but you can past your database's url. Create a remote mongodb database [here](https://www.mlab.com)
 
 ```bash
-echo "BASE_URL='http://localhost:5000" >> .env
+echo "BASE_URL=http://localhost:5000" >> .env
 echo "PORT=5000" >> .env
 echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-url-shortener" >> .env
 ```
@@ -67,7 +67,7 @@ http post localhost:5000/api/items url=https://twitter.com/theshanabek/status/11
 1. Go to `client` directory 
 
 ```bash
-cd quttai
+cd quttai/client
 ```
 
 2. Install dependencies
