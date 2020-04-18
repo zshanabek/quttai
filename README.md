@@ -30,7 +30,7 @@ npm install
 3. Create the environment variables file. Here I pasted connection url to my remote database, but you can past your database's url. Create a remote mongodb database [here](https://www.mlab.com)
 
 ```bash
-echo "BASE_URL='http://localhost:5000" >> .env
+echo "BASE_URL=http://localhost:5000" >> .env
 echo "PORT=5000" >> .env
 echo "MONGODB_URL='mongodb://zshanabek:132312qQ@ds241647.mlab.com:41647/nodejs-url-shortener" >> .env
 ```
