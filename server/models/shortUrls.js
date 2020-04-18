@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
-const { Schema } = mongoose;
 
-const shortUrlsSchema = new Schema({
+const shortUrlsSchema = new mongoose.Schema({
     url: { type: String, required: true },
     code: { type: String, required: true },
     count: { type: Number, default: 0 },
