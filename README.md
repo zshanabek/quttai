@@ -18,7 +18,7 @@ quttai - word from Kazakh құттай ("small").
 
 ```bash
 git clone https://github.com/zshanabek/quttai
-cd quttai
+cd quttai/server
 ```
 
 2. Install dependencies
