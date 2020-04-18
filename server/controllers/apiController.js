@@ -18,10 +18,10 @@ module.exports = app => {
             if (err) return console.error(err);
             console.log(obj.url + ' is saved')
         });
-        res.status(200).json({ success: true, url: `${baseUrl}/api/items/${code}` });
+        res.status(200).json({ success: true, url: `${baseUrl}/${code}` });
     });
 
-    app.get("/api/items/:code", async (req, res) => {
+    app.get("/:code", async (req, res) => {
         const { code } = req.params;
         const item = await db.findOne({ code });
         if (!item) {

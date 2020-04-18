@@ -22,6 +22,7 @@
           class="form-control mt-3"
           type="text"
           v-model="message.url"
+          readonly
         >
         <button
           class="btn btn-outline-light mt-3"
