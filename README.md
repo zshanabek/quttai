@@ -67,7 +67,7 @@ http post localhost:5000/api/items url=https://twitter.com/theshanabek/status/11
 1. Go to `client` directory 
 
 ```bash
-cd quttai
+cd quttai/client
 ```
 
 2. Install dependencies
