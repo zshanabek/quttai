@@ -2,7 +2,11 @@
 
 URL shortener. 
 
-Tech stack: nodejs, express, mongodb, mongoose
+Tech stack.
+Server: nodejs, express, mongodb, mongoose
+Client: vue
+
+Extra packages: vue-toasted(https://github.com/shakee93/vue-toasted), vue-clipboard2(https://github.com/Inndy/vue-clipboard2), valid-url(https://github.com/ogt/valid-url), shortid(https://github.com/dylang/shortid), dotenv(https://github.com/motdotla/dotenv)
 
 quttai - word from Kazakh құттай ("small").
 
