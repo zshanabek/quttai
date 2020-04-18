@@ -58,4 +58,24 @@ http post localhost:5000/api/items url=https://twitter.com/theshanabek/status/11
 
 ## Frontend installation
 
-TODO
+1. Go to `client` directory 
+
+```bash
+cd quttai
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run server
+
+```bash
+npm run serve
+```
+
+4. App is running here: http://localhost:8080
+
+![Screenshot](screenshot.png)
