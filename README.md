@@ -1,14 +1,18 @@
 # Introduction
 
-URL shortener. Tech stack: nodejs, express, mongodb, mongoose
+URL shortener. 
+
+Tech stack: nodejs, express, mongodb, mongoose
+
+quttai - word from Kazakh құттай ("small").
 
 ## Backend installation
 
 1. Clone repository
 
 ```bash
-git clone https://github.com/zshanabek/url-shortener
-cd url-shortener
+git clone https://github.com/zshanabek/quttai
+cd quttai
 ```
 
 2. Install dependencies
@@ -17,7 +21,7 @@ cd url-shortener
 npm install
 ```
 
-3. Create the environment variables file. Here I past connection url to my remote mongodb database, but you can past url to your own database. Create remote mongodb database [here](https://www.mlab.com)
+3. Create the environment variables file. Here I pasted connection url to my remote database, but you can past your database's url. Create a remote mongodb database [here](https://www.mlab.com)
 
 ```bash
 echo "BASE_URL='http://localhost:5000" >> .env
